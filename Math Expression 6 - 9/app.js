@@ -113,8 +113,8 @@ document.write("Q3. Write a program that takes input a name from user & greet th
 document.write("<br />")
 document.write("<br />")
 
-// var greetname = prompt("Enter Your name")
-var greetname = "Nabeel"
+var greetname = prompt("Enter Your name")
+// var greetname = "Nabeel"
 
 console.log("Welcome to " + greetname)
 document.write("Welcome to " + greetname)

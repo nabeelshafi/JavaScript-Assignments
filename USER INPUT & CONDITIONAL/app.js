@@ -11,12 +11,12 @@ console.log("Q1.")
 document.write("Q1.")
 document.write("<br />")
 document.write("<br />")
-// var cityName = prompt("Enter city name");
+var cityName = prompt("Enter city name");
 
-// if(cityName == "karachi" || cityName == "Karachi"){
-//     console.log("Welcome to city of light")
-//     document.write("Welcome to city of light")
-// };
+if(cityName == "karachi" || cityName == "Karachi"){
+    console.log("Welcome to city of light")
+    document.write("Welcome to city of light")
+};
 
 
 // Q2. Write a program to take “gender” as input from user. If the
@@ -28,22 +28,23 @@ document.write("<br />")
 console.log("Q2 .")
 document.write("Q2 .")
 
-// var gender = prompt("Enter your gender")
+var gender = prompt("Enter your gender")
 
-// if(gender === "male" || gender === "Male" || gender === "MALE"){
-//     console.log("Good Morning Sir")
-//     document.write("Good Morning Sir")
-//     document.write("<br />")
-// }
-// else if(gender === "female" || gender === "Female" || gender === "FEMALE"){
-//     console.log("Good Morning Ma'am")
-//     document.write("Good Morning Ma'm")
-//     document.write("<br />")
-// }
-// else{
-//     console.log("Please enter correct gender")
-//     document.write("Please enter correct gender")
-// }
+if(gender === "male" || gender === "Male" || gender === "MALE"){
+    console.log("Good Morning Sir")
+    document.write("Good Morning Sir")
+    document.write("<br />")
+}
+else if(gender === "female" || gender === "Female" || gender === "FEMALE"){
+    console.log("Good Morning Ma'am")
+    document.write("Good Morning Ma'm")
+    document.write("<br />")
+}
+else{
+    console.log("Please enter correct gender")
+    document.write("Please enter correct gender")
+}
+
 document.write("<br />")
 document.write("<br />")
 
@@ -57,24 +58,24 @@ document.write("Q3.")
 document.write("<br />")
 document.write("<br />")
 
-// var trafficLight = prompt("Enter TRaffic Signal Light")
+var trafficLight = prompt("Enter TRaffic Signal Light")
 
-// if(trafficLight === "red" || trafficLight === "Red" || trafficLight === "RED"){
-//     console.log("Must Stop")
-//     document.write("Must Stop")
-// }
-// else if(trafficLight === "yellow" || trafficLight === "Yellow" || trafficLight === "YELLOW"){
-//     console.log("Ready to move")
-//     document.write("Ready to move")
-// }
-// else if(trafficLight === "green" || trafficLight === "Green" || trafficLight === "GREEN"){
-//     console.log("Move now")
-//     document.write("Move now")
-// }
-// else{
-//     console.log("Enter correct traffic light")
-//     document.write("Enter correct traffic light")
-// }
+if(trafficLight === "red" || trafficLight === "Red" || trafficLight === "RED"){
+    console.log("Must Stop")
+    document.write("Must Stop")
+}
+else if(trafficLight === "yellow" || trafficLight === "Yellow" || trafficLight === "YELLOW"){
+    console.log("Ready to move")
+    document.write("Ready to move")
+}
+else if(trafficLight === "green" || trafficLight === "Green" || trafficLight === "GREEN"){
+    console.log("Move now")
+    document.write("Move now")
+}
+else{
+    console.log("Enter correct traffic light")
+    document.write("Enter correct traffic light")
+}
 
 
 
@@ -101,61 +102,72 @@ if(currentFuel < 0.25){
 // 5. Run this script, & check whether alert message would be
 // displayed or not. Record the outputs.
 
-// var a = 4;
-// if (++a === 5){
-//     alert("given condition for variable a is true");
-// }
+var a = 4;
+if (++a === 5){
+    alert("given condition for variable a is true");
+}
 
-// // true
+// true
 
-// var b = 82;
-// if (b++ === 83){
-//  alert("given condition for variable b is true");
-// }
+var b = 82;
+if (b++ === 83){
+ alert("given condition for variable b is true");
+}
 
-// // false
+// false
 
-// var c = 12;
-// if (c++ === 13){
-//     alert("condition 1 is true");
-// }
-// // false
+var c = 12;
+if (c++ === 13){
+    alert("condition 1 is true");
+}
 
-// if (c === 13){
-//     alert("condition 2 is true");
-// }
-// //  true
+// false
+
+if (c === 13){
+    alert("condition 2 is true");
+}
+//  true
 
 
-// if (++c < 14){
-//     alert("condition 3 is true");
-// }
-// //  false
-// if(c === 14){
-//  alert("condition 4 is true");
-//  }
-// //  true
+if (++c < 14){
+    alert("condition 3 is true");
+}
 
-// var materialCost = 20000;
-// var laborCost = 2000;
-// var totalCost = materialCost + laborCost;
+//  false
 
-// if (totalCost === laborCost + materialCost){
-//  alert("The cost equals");
-//  }
-// //  true
-// if (true){
-//     alert("True");
-// }
-// //  true
-// if (false){
-//     alert("False");
-// }
-// //  false
-// if("car" < "cat"){
-//     alert("car is smaller than cat");
-// }
-// // true
+if(c === 14){
+ alert("condition 4 is true");
+ }
+
+//  true
+
+var materialCost = 20000;
+var laborCost = 2000;
+var totalCost = materialCost + laborCost;
+
+if (totalCost === laborCost + materialCost){
+ alert("The cost equals");
+ }
+
+//  true
+
+if (true){
+    alert("True");
+}
+
+//  true
+
+if (false){
+    alert("False");
+}
+
+//  false
+
+if("car" < "cat"){
+    alert("car is smaller than cat");
+}
+
+// true
 
 
 // 6. Write a program to take input the marks obtained in three
@@ -163,24 +175,26 @@ if(currentFuel < 0.25){
 // percentage on your page. Take percentage & compute
 // grade as per following table:
 
-// var totalMarks = 300;
-// var marksObt = 219;
-// var per = marksObt / totalMarks * 100;
-// var grade ;
+var totalMarks = 300;
+var marksObt = 219;
+var per = marksObt / totalMarks * 100;
+var grade ;
 
-// if (per >= 80 ){
-//     grade = "A-one"
-//     console.log("Excellent")
-// }
-// else if (per >= 70 ){
-//     grade = "A"
-//     console.log("Good")
-// }
-// else if (per >= 60 ){
-//     grade = "B"
-//     console.log("You need to improve")
-// }
-// else{
-//     grade = "Fail"
-//     console.log("sorry")
-// }
+if (per >= 80 ){
+    grade = "A-one"
+    console.log("Excellent")
+}
+else if (per >= 70 ){
+    grade = "A"
+    console.log("Good")
+}
+else if (per >= 60 ){
+    grade = "B"
+    console.log("You need to improve")
+}
+else{
+    grade = "Fail"
+    console.log("sorry")
+}
+
+// ----- END -----
