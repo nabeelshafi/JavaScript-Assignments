@@ -26,10 +26,10 @@
 // taken as an input from user.
 
 // var tableNum = +prompt("Enter table number")
-// var tableLen = +prompt("Enter table length")
+// var tableLen = prompt("Enter table length")
 
-// for(var i = 1 ; i <= 10 ; i++){
-//     document.write(`<h4> ${tableNum} X ${i} = ${tableNum * tableLen} <br /> </h4>`)
+// for(var i = 1 ; i <= tableLen ; i++){
+//     document.write(`<h4> ${tableNum} X ${i} = ${tableNum * i} <br /> </h4>`)
 // }
 
 
@@ -49,36 +49,58 @@
 // example output.
 // a. Counting: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
 
+// document.write("<h3> Counting: ")
 // for(var i = 1 ; i <= 15 ; i++){
-//     document.write("<h3> Counting: " + i + "<br />" + "</h3>")
+//     document.write(i)
+//     if(i < 15){
+//         document.write(", ")
+//     }   
 // }
+// document.write("</h3>")
 
 // b. Reverse counting: 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
 
+// document.write("<h3> Reverse Counting: ")
 // for(var i = 10 ; i >= 1 ; i--){
-//     document.write("<h3> Reverse Counting: " + i + "<br />" + "</h3>")
-// }
+//     document.write(i)
+//     if(i > 1){
+//             document.write(", ")
+//         }        
+//     }
+// document.write("</h3>")
 
 // c. Even: 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20
 
+// document.write("<h3> Even: ")
 // for(var i = 0 ; i <= 20 ; i++){
 //     if(i % 2 !== 1){
-//         document.write("<h3> Even: " + i + "<br />" + "</h3>")
-//         // console.log("Even: " + i)
+//         document.write(i)
+//         if(i < 19){
+//                 document.write(", ")
+//             }        
+//         }
 //     }
-// }
+//     document.write("</h3>")
 
 // d. Odd: 1, 3, 5, 7, 9, 11, 13, 15, 17, 19
 
+// document.write("<h3> Odd: ")
 // for(var i = 0 ; i <= 20 ; i++){
 //     if(i % 2){
-//         document.write("<h3> Odd: " + i + "<br />" + "</h3>")
-//         // console.log("Odd: " + i)
+//         document.write(i)
+//         if(i < 18){
+//             document.write(", ")
+//         }        
 //     }
 // }
+// document.write("</h3>")
 
 // e. Series: 2k, 4k, 6k, 8k, 10k, 12k, 14k, 16k, 18k, 20k
-
+// document.write("<h3> Series: ")
 // for (var i = 2; i <= 20; i += 2) {
-//         document.write("<h3> Series: " + i + "k <br />" + "</h3>")
+//     document.write(i + "k")
+//     if(i < 20){
+//         document.write(", ")
+//     }
 // }
+// document.write("</h3>")
