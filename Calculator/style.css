@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  :root{
+    --dark-bg-2: #092033ff;
+    --dark-text-input:#E6E9ECff;
+    --dark-bg:#092436ff;
+    --dark-field:#fff;
+  --light-bg-2: #FAFBFCff;
+  --eq-bg: #319D9Eff;
+  --light-bg: #D0D9E4ff;
+    --light-text-input: #6E6E6Fff;
+    --light-opt:#62C8BEff;
+    --light-ac:#EB6B6Bff;
+    --light-field:#333333ff;
+  }
+  
+  .calBox{
+    margin: 20px auto;
+    border: 1px solid red;
+    width: 300px;
+    position: relative;
+    border-radius: 10px;
+    background-color: var(--light-bg);
+    overflow: hidden;
+  }
+  
+  .inputBox{
+    background-color: transparent;
+  }
+  
+  .logoBrand h2{
+    font-size: 18px;
+    color: var(--light-text-input);
+    
+  }
+  .logoBrand{
+    text-align: center;
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .inputBox{
+    height: 200px;
+    position: relative;
+  }
+  .inputBox input::placeholder{
+    color: #000;
+  }
+    
+  .inputBox input{
+    font-size: 40px;
+    background: transparent;
+    text-align: right;
+    font-weight: bold;
+    padding: 20px;
+    width: 100%;
+    border: none;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .inputBox input:focus{
+    outline: none;
+  }
+  
+  .btnBox{
+    background-color: var(--light-bg-2);
+    padding: 20px 0;
+  }
+  
+  .btnBox div{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .btnBox .btn{
+    height:60px;
+    width:60px;
+    font-size: 22px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    margin:5px 0;
+    border:none;
+    background-color: transparent;
+    color: var(---light-text-input);
+  }
+  
+  #equ{
+    background-color: var(--eq-bg);
+    color: #fff;
+    
+  }
+  
+  .btnBox .opt{
+    font-size: 26px;
+    color:var(--light-opt);
+  }
+  .btnBox .colorEle{
+    color: var(--light-opt);
+    
+  }
+
+  
+  
+  
